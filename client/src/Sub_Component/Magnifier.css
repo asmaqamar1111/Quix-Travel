@@ -1,0 +1,29 @@
+.magnifier-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .magnifier-image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .magnifier-image-container img {
+    max-width: 100%;
+  }
+  
+  .magnifier-image-zoom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    z-index: 999;
+    opacity: 0.8;
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+    transform: scale(2);
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+  }
+  
